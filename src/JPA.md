@@ -58,7 +58,6 @@ m.name = :name", Member.class)
 .getResultList();
 return result.stream().findAny();
 }
-}
 ```
 
 

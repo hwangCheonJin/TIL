@@ -5,6 +5,7 @@ Transactional
 않는다.
 
 
+
 test에서 @Transactional을 사용하면 트랜젝션이 먼저 실행되며
 테스트에서 사용한 코드는 다시 롤백을 해준다.
 

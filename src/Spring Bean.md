@@ -2,6 +2,7 @@
 =================
 컴포넌트 스캔과 자동 의존관계 설정
 
+
 1. 컴포넌트 스캔 (생성자를 통한 스프링 빈 등록)
 
 컴포넌트 스캔이 있으면 자동으로 객체를 생성한다.
@@ -34,6 +35,7 @@ this.memberService = memberService;
 
 컴포넌트 스캔과 자동 의존관계 설정
 
+
 ```java
 package hello.hellospring;
 import hello.hellospring.repository.MemberRepository;
@@ -58,6 +60,7 @@ return new MemoryMemberRepository();
 - 확장에는 열려있고, 수정,변경에는 닫혀있다.
 스프링의 DI (Dependencies Injection)을 사용하면
 기존 코드를 전혀 손대지 않고, 설정만으로 구현 클래스를 변경할 수 있다.
+- 
 
 >참고: 실무에서는 주로 정형화된 컨트롤러, 서비스, 리포지토리 같은 코드는 컴포넌트 스캔을 사용한다.
 그리고 정형화 되지 않거나, 상황에 따라 구현 클래스를 변경해야 하면 설정을 통해 스프링 빈으로

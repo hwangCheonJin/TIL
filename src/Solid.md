@@ -9,6 +9,7 @@ Solid
 4. ISP: 인터페이스 분리 원칙 (Interface segregation principle)
 5. DIP: 의존관계 역전 원칙 (Dependency inversion principle)
 
+
 >SRP 단일 책임 원칙(Single responsibility principle)
 
 1. 한 클래스는 하나의 책임만 가져야 한다.
@@ -25,6 +26,7 @@ Solid
 
 1. 소프트웨어 요소는 확장에는 열려 있으나 변경에는 닫혀 있어야 한다
 2. 객체를 생성하고, 연관관계를 맺어주는 별도의 조립, 설정자가 필요하다
+
 
 >LSP 리스코프 치환 원칙(Liskov substitution principle)
 
@@ -48,6 +50,7 @@ Solid
 - 분리하면 정비 인터페이스 자체가 변해도 운전자 클라이언트에 영향을 주지 않음
 
 인터페이스가 명확해지고, 대체 가능성이 높아진다
+
 
 >DIP 의존관계 역전 원칙(Dependency inversion principle)
 
